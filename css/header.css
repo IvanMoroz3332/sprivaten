@@ -46,6 +46,7 @@ header .navbar{
     flex-direction: row;
     align-items: center;
     margin-left: 550px;
+    margin-right: 40px;
     margin-top: 65px;
     padding: 0px;
     gap: 25px;
@@ -104,7 +105,7 @@ header .toggler img{
 }
 
 /*HEADER CONTENT*/
-header .content{
+    header .content{
     display: flex;
     flex-direction: row;
     align-items: center;
