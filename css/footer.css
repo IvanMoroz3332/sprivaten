@@ -180,6 +180,12 @@ footer .features .info .support .send-message{
     letter-spacing: 0.2px;
 
     color: #FFFFFF;
+
+    transition: 0.3s ease-in-out;
+}
+footer .features .info .support .send-message:hover{
+    background: rgba(255, 166, 43, 0.7);
+    color: #ede7e7
 }
 footer .author{
     height: 74px;
