@@ -1,0 +1,360 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/assets/font/Montserrat-VariableFont_wght.ttf);
+}
+
+/* HEADER */
+header{
+    width: 1440px;
+    height: 823px;
+
+    background-image: url(/assets/background/header-background.jpg);
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+header nav{
+    display: flex;
+    width: 1322px;
+    height: 104px;
+    left: calc(50% - 1322px/2);
+    top: 0px;
+}
+header .brand{
+    display: flex;
+    margin-left: 195px;
+    margin-top: 36px;
+    width: auto;
+    height: ;
+}
+header .brand h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 550px;
+    margin-right: 40px;
+    margin-top: 65px;
+    padding: 0px;
+    gap: 25px;
+
+    width: 280px;
+    height: 24px;
+
+}
+header .navbar li{
+    width: 60px;
+    height: 24px;
+
+    display: flex;
+    order: 0;
+    flex-grow: 0;
+
+    list-style-type: none;
+}
+header .navbar button{
+    text-decoration: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: rgba(0, 0, 0, 0);
+    border-style: none  ;
+    color: #737373;
+}
+header .navbar button:hover{
+    transition: 0.5s;
+    color: #00A0C1;
+}
+header .icons{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-top: 52px;
+    margin-left: 75px;
+}
+header .icons img{
+    width: 20px;
+}
+header .toggler{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 52px;
+}
+header .toggler img{
+    width: 28px;
+}
+
+/*HEADER CONTENT*/
+    header .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    /*gap: 120px;*/
+
+    width: 1050px;
+    height: 619px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+header .content .tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+
+    width: auto;
+    height: auto;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+header .content .tagline .headers1{
+    margin-top: 170px;
+    margin-left: 195px;
+}
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight:900;
+    font-size: 58px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+header .content .tagline .headers4{
+    margin-top: 40px;
+    margin-left: 195px;
+}
+h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+header .content .tagline .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 195px;
+    padding-top: 70px;
+    gap: 10px;
+
+    width: 349px;
+    height: 48px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.button-quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 13px;
+    gap: 10px;
+
+    width: 190px;
+    height: 48px;
+    background: #00A0C1;
+    color: #FFFFFF;
+    border: 2px solid #00A0C1;
+    border-radius: 37px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /*txt*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 28 px;
+    
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+.button-quote:hover{
+    transition: 0.5s;
+    background: rgba(0, 160, 193, 0.5);
+    color: #252B42;
+}
+.button-learn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 13px;
+    gap: 10px;
+
+    width: 160px;
+    height: 48px;
+
+    border: 2px solid #00A0C1;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 37px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 28 px;
+    
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #00A0C1;
+
+}
+.button-learn:hover{
+    transition: 0.5s;
+    background: rgba(0, 160, 193, 0.5);
+    color: #252B42;
+}
+/*CARD-ITEM*/
+header .content .card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 150px;
+
+    width: 328px;
+    height: 619px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+header .content .card-item h3{
+width: 280px;
+height: 32px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 20px;
+
+text-align: center;
+letter-spacing: 0.1px;
+
+color: #252B42;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+header .content .card-item h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 5px;
+    
+    letter-spacing: 0.2px;
+
+    color: #252B42;
+}
+header .content .card-item .send-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    margin-left: 15%;
+    margin-top: 15%;
+    gap: 10px;
+
+    width: 70%;
+    height: 58px;
+
+    background: #FFA62B;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(255, 166, 43);
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
+}
+header .content .card-item .send-card:hover{
+    transition: 0.5s;
+    background: rgba(255, 166, 43, 0.5);
+    color: #252B42;
+}
+header .content .card-item .form{
+    width: 248px;
+    height: 91px;
+    margin: 0px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+header .content .card-item select{
+    margin: 0px;
+}
+header .content .card-item .input-form{
+    display: flex;
+    width: 240px;
+    height: 50px;
+    margin: 0px;
+    padding-left: 10px;
+    background: #F9F9F9;
+
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}
