@@ -33,7 +33,7 @@
 }
 
 #ind-h2 {
-    width: 171px;
+    width: auto;
     height: 27px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -223,19 +223,20 @@
 }
 
 .who h2 {
-    width: 270px;
+    width: auto;
     height: 57px;
+    text-align: center;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
-    line-height: 57px;
+    line-height: 40px;
     letter-spacing: 0px;
     color: #252B42;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 .who p {
@@ -257,10 +258,11 @@
 
 .who-vid {
     padding: 0px;
+    margin-top: 15px;
     gap: 30px;
     width: 877px;
     height: 442px;
-    background-image: url(./assets/img/cover.jpg);
+    background-image: url(/assets/main/section2/cover\ \(1\).jpg);
     background-repeat: no-repeat;
     z-index: 2;
 }
